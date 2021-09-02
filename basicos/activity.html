@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>To-Do List</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC" rel="stylesheet">
+    <style>
+        body {
+            background-color:rgb(37, 37, 37);
+            color:aliceblue;
+            padding:2rem;
+            margin:0;
+            font-family: 'Architects Daughter', cursive;
+            font-size: 12px;
+        }
+        h1 {
+            font-family: 'Bowlby One SC', cursive;
+            font-size: 2.8rem;
+            color: cornflowerblue;
+            margin:0;
+        }
+        ol {
+            font-family: 'Architects Daughter', cursive;
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <ol id="ordered-list">
+        <li>Wash Laundry</li>
+        <li>Clean Silver</li>
+        <li>Write Letters</li>
+        <li>Purchase Groceries</li>
+        <li>Retrieve Mail</li>
+        <li>Prepare Dinner</li>
+        <li>Clean Room</li>
+    </ol>
+    <script>
+        // var orderedList = document.getElementById("ordered-list");
+        // var listElement = document.createElement("li");
+        // listElement.innerText="New item element";
+        // orderedList.appendChild(listElement);
+        // orderedList.lastChild.style.color = "green";
+
+        var orderedList = document.getElementById("ordered-list");
+        for (var i = 0; i < sports.length; i++) {     
+        var listElement = document.createElement("li");
+        listElement.innerText=sports[i];
+        orderedList.appendChild(listElement);
+        }
+        
+    </script>
+</body>
+</html>
